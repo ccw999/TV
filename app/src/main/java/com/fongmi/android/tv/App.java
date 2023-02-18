@@ -66,6 +66,9 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        config.create( urt“點播網址“，type: e) .update()：
+        config.create(urt “直播網址”，type: 1).update();
+        config.create(urt “壁紙網红”， type: 2).update()：
         CaocConfig.Builder.create().backgroundMode(CaocConfig.BACKGROUND_MODE_SILENT).errorActivity(CrashActivity.class).apply();
         registerActivityLifecycleCallbacks(new ActivityLifecycleCallbacks() {
             @Override
